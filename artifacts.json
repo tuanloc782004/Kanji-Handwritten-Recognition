@@ -1,0 +1,27 @@
+{
+    "model_config": {
+        "IMG_SIZE": 96,
+        "NUM_CLASSES": 93,
+        "MIN_IMAGES_PER_CLASS": 300
+    },
+    "training_config": {
+        "EPOCHS": 15,
+        "BATCH_SIZE": 128,
+        "LEARNING_RATE": 0.0003
+    },
+    "paths": {
+        "best_model": "/content/drive/MyDrive/kanji_handwritten_recognition/models/best_model.pth",
+        "last_model": "/content/drive/MyDrive/kanji_handwritten_recognition/models/last_model.pth",
+        "idx2char_map": "/content/drive/MyDrive/kanji_handwritten_recognition/idx2char.json",
+        "metrics_history": "/content/drive/MyDrive/kanji_handwritten_recognition/logs/metrics_history.json",
+        "classification_report": "/content/drive/MyDrive/kanji_handwritten_recognition/logs/classification_report.json",
+        "plots": [
+            "/content/drive/MyDrive/kanji_handwritten_recognition/plots/class_distribution.png",
+            "/content/drive/MyDrive/kanji_handwritten_recognition/plots/loss_and_metrics_curves.png",
+            "/content/drive/MyDrive/kanji_handwritten_recognition/plots/learning_rate_schedule.png",
+            "/content/drive/MyDrive/kanji_handwritten_recognition/plots/confusion_matrix.png",
+            "/content/drive/MyDrive/kanji_handwritten_recognition/plots/precision_recall_curve.png",
+            "/content/drive/MyDrive/kanji_handwritten_recognition/plots/misclassified_examples.png"
+        ]
+    }
+}
